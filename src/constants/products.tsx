@@ -36,8 +36,8 @@ export const products = [
           marketplace ensures that all transactions are conducted in a safe and
           efficient manner. Smart contracts enable secure and transparent
           exchanges, protecting both buyers and sellers from fraud. The
-          platform's intuitive design enhances user interaction, allowing for
-          easy navigation, NFT tracking, and personalized user profiles.
+          platform:&apos;s intuitive design enhances user interaction, allowing
+          for easy navigation, NFT tracking, and personalized user profiles.
         </p>{" "}
         <p>
           Whether users are seasoned NFT creators or newcomers, the platform
@@ -71,7 +71,7 @@ export const products = [
       <div>
         <p>
           I developed a decentralized marketplace specifically for local farmers
-          to buy and sell goods in a peer-to-peer (P2P) manner. This platform
+          to buy and sell goods in a peer-to-peer - P2P manner. This platform
           allows both buyers and sellers to communicate directly, eliminating
           the need for intermediaries and fostering a more equitable trade
           environment. Transactions on the platform are conducted using AVAX
