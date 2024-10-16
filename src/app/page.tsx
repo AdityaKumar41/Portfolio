@@ -32,7 +32,7 @@ export default function Home() {
       >
         What I&apos;ve been working on
       </Heading>
-      <Products />
+      <Products limit={4} />
 
       <TechStack />
     </Container>

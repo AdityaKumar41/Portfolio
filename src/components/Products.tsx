@@ -8,11 +8,16 @@ import Image from "next/image";
 import { Paragraph } from "./Paragraph";
 import { motion } from "framer-motion";
 
-export const Products = () => {
+interface Limit {
+  limit?: number;
+}
+
+export const Products = ({ limit }: Limit) => {
+  const product = limit ? products.slice(0, limit) : products;
   return (
     <div>
       <div className="grid grid-cols-1  gap-10">
-        {products.map((product: Product, idx: number) => (
+        {product.map((product: Product, idx: number) => (
           <motion.div
             key={product.href}
             initial={{

@@ -96,6 +96,18 @@ export const TechStack = () => {
       className: "h-10 w-10",
     },
     {
+      title: "Zustand",
+      src: "/images/logos/zustand.jpg",
+
+      className: "h-10 w-10",
+    },
+    {
+      title: "Redux",
+      src: "/images/logos/redux.svg",
+
+      className: "h-10 w-10",
+    },
+    {
       title: "GraphQL",
       src: "/images/logos/graphql.svg",
 
@@ -108,7 +120,7 @@ export const TechStack = () => {
       className: "h-10 w-10",
     },
     {
-      title: "GraphQL",
+      title: "MongoDB",
       src: "/images/logos/mongodb.svg",
 
       className: "h-10 w-20",

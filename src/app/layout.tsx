@@ -6,6 +6,7 @@ import { twMerge } from "tailwind-merge";
 import Footer from "@/components/Footer";
 import { ThemeProvider } from "@/components/theme-provider";
 import FloatingNavDemo from "@/components/Navbar";
+import { Toaster } from "@/components/ui/toaster";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -36,6 +37,7 @@ export default function RootLayout({
           {/* <div className="lg:pl-2 lg:pt-2 bg-gray-100 flex-1 overflow-y-auto"> */}
           <div className="flex-1 bg-white  dark:bg-black min-h-screen  border border-transparent lg:border-neutral-200 dark:lg:border-zinc-700 overflow-y-auto dark:text-white">
             {children}
+            <Toaster />
             <Footer />
           </div>
           {/* </div> */}
