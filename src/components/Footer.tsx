@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import Link from "next/link";
 import {
   IconBrandGithub,
@@ -68,8 +68,7 @@ const Footer = () => {
                   <span>Twitter</span>
                 </Link>
                 <Link
-                  href={"#"}
-                  target="_blank"
+                  href="mailto:ownyourblogs@gmail.com"
                   className="px-4 text-sm text-gray-600 transition-colors duration-300 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 hover:underline flex gap-1 items-center"
                 >
                   <IconMail className="h-5 w-5 text-neutral-500" />{" "}
