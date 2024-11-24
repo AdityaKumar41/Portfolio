@@ -40,7 +40,7 @@ export const products = [
           marketplace ensures that all transactions are conducted in a safe and
           efficient manner. Smart contracts enable secure and transparent
           exchanges, protecting both buyers and sellers from fraud. The
-          platform:&apos;s intuitive design enhances user interaction, allowing
+          platform&apos;s intuitive design enhances user interaction, allowing
           for easy navigation, NFT tracking, and personalized user profiles.
         </p>{" "}
         <p>
@@ -327,8 +327,8 @@ export const products = [
         </p>
         <p>
           This platform offers to show the diagnosis history of the patient, and
-          only doctor can access the patient's data who is specializations in
-          that field.
+          only doctor can access the patient&apos;s data who is specializations
+          in that field.
         </p>{" "}
         <p>
           The technology stack for this project includes React.js, Tailwind CSS,
