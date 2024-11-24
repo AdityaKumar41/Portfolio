@@ -33,14 +33,14 @@ export const Products = ({ limit }: Limit) => {
             <Link
               href={product.slug ? `/projects/${product.slug}` : product.href}
               key={product.href}
-              className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 dark:hover:bg-[#212121] rounded-2xl transition duration-200 pt-4"
+              className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-[#cecece] dark:hover:bg-[#212121] p-4 rounded-2xl transition duration-200 pt-4"
             >
               <Image
                 src={product.thumbnail}
                 alt="thumbnail"
                 height="200"
                 width="200"
-                className="rounded-md max-[720px]:w-full"
+                className="rounded-md max-[720px]:w-full object-contain"
               />
               <div className="flex flex-col justify-between">
                 <div>
@@ -50,7 +50,7 @@ export const Products = ({ limit }: Limit) => {
                   >
                     {product.title}
                   </Heading>
-                  <Paragraph className="text-sm md:text-sm lg:text-sm mt-2 max-w-xl">
+                  <Paragraph className="text-sm md:text-sm lg:text-sm mt-2 max-w-xl mb-1">
                     {product.description}
                   </Paragraph>
                 </div>

@@ -37,6 +37,7 @@
     "react-dom": "18.2.0",
     "react-hook-form": "^7.53.0",
     "remark-gfm": "^3.0.1",
+    "sidefolio": "file:",
     "tailwind-merge": "^2.5.3",
     "tailwindcss": "3.3.3",
     "tailwindcss-animate": "^1.0.7",

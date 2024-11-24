@@ -9,6 +9,10 @@ import twitter1 from "public/images/twitter1.png";
 import twitter2 from "public/images/twitter2.png";
 import chatcat1 from "public/images/chatcat1.png";
 import chatcat2 from "public/images/chatcat2.png";
+import fresher1 from "public/images/fresher1.png";
+import fresher2 from "public/images/fresher2.png";
+import doctor1 from "public/images/doctor1.png";
+import doctor2 from "public/images/doctor2.png";
 // import sampleimage from "public/images/sampleimage.png";
 
 export const products = [
@@ -102,8 +106,8 @@ export const products = [
     href: "https://github.com/AdityaKumar41/Spotify-clone",
     title: "AudioFy",
     description: "AudioFy, a fullstack music streaming platform. ",
-    thumbnail: spotify2,
-    images: [spotify2, spotify1],
+    thumbnail: spotify1,
+    images: [spotify1, spotify2],
     stack: [
       "Reactjs",
       "Tailwindcss",
@@ -244,6 +248,96 @@ export const products = [
           Firebase manages real-time database interactions, ensuring a smooth
           user experience. Zustand is employed for efficient state management,
           enhancing application performance.
+        </p>
+      </div>
+    ),
+  },
+  {
+    href: "https://github.com/AdityaKumar41/Fresher-Party",
+    title: "Ticket System for Freshers",
+    description:
+      "A ticket system for freshers party, that allows students to Get tickets for the event.",
+    thumbnail: fresher1,
+    images: [fresher1, fresher2],
+    stack: [
+      "Reactjs",
+      "Tailwindcss",
+      "JavaScript",
+      "Supabase",
+      "Postgres",
+      "Nodejs",
+    ],
+    slug: "fresher",
+    content: (
+      <div>
+        <p>
+          I developed a ticket system for a freshers party that allows students
+          to get tickets for the event. The platform offers a seamless user
+          experience, enabling students for perticular domain, get tickets, and
+          download it. The system is designed to handle high volumes of traffic,
+          ensuring that students can easily access the platform and complete
+          their ticket purchases.
+        </p>
+        <p>
+          This Platform offers admin panel, where admin can scan the tickets and
+          verify the students. The platform is designed to be user-friendly and
+          this system allows to scan tickets only once, to avoid any kind of
+          fraud.
+        </p>{" "}
+        <p>
+          The technology stack for this project includes React.js, Tailwind CSS,
+          JavaScript, Supabase, Postgres, and Node.js, which collectively
+          contribute to a robust and scalable backend. I utilized Postgres for
+          efficient data management, while Supabase enhances performance and
+          reliability. Additionally, React Query is employed for efficient data
+          fetching and synchronization, improving the overall user experience.
+        </p>
+      </div>
+    ),
+  },
+  {
+    href: "https://github.com/AdityaKumar41/Diagnosis",
+    title: "Diagnosis Record System",
+    description:
+      "A platform where patients store their medical records and doctors can access them.",
+    thumbnail: doctor1,
+    images: [doctor1, doctor2],
+    stack: [
+      "Reactjs",
+      "Tailwindcss",
+      "TypeScript",
+      "Sepolia",
+      "Graphql",
+      "Postgres",
+      "Nodejs",
+      "ipfs",
+      "wagami",
+    ],
+    slug: "diagnosis",
+    content: (
+      <div>
+        <p>🚧Corrently on development...</p>
+        <p>
+          I developed a diagnosis record system that allows patients to store
+          their medical records and doctors to access them. The platform offers
+          a secure and efficient way to manage patient data, ensuring that
+          medical professionals can make informed decisions based on accurate
+          information. Patients can easily upload their records, view their
+          medical history, and share data with healthcare providers as needed.
+        </p>
+        <p>
+          This platform offers to show the diagnosis history of the patient, and
+          only doctor can access the patient's data who is specializations in
+          that field.
+        </p>{" "}
+        <p>
+          The technology stack for this project includes React.js, Tailwind CSS,
+          TypeScript, Sepolia, Supabase, GraphQL, Postgres, and Node.js, which
+          collectively contribute to a robust and scalable backend. I utilized
+          Postgres for efficient data management, while Supabase enhances
+          performance and reliability. Additionally, React Query is employed for
+          efficient data fetching and synchronization, improving the overall
+          user experience.
         </p>
       </div>
     ),
